@@ -9,11 +9,11 @@ from llama_index.core import (
     SimpleDirectoryReader,
     get_response_synthesizer,
     Settings,
+    PromptTemplate,
 )
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.anthropic import Anthropic
 from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.core import PromptTemplate
 from dotenv import load_dotenv
 import toml
 

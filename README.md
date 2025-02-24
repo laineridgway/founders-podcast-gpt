@@ -27,9 +27,9 @@ This project:
 
 3. Set up environment variables:
    ```bash
-   cp .env.example .env
+   cp backend/.env.example backend/.env
    ```
-   Then edit `.env` with your own API Keys.
+   Then edit `backend/.env` with your own API Keys.
 
 4. Get Transcripts:
    ```bash
